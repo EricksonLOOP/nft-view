@@ -1,0 +1,106 @@
+/*GLBOAL*/
+*{
+	padding: 0;
+	margin: 0;
+	color: whitesmoke;
+}
+
+/*IMPORTS*/
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+/*CONTEÚDO*/
+
+body{
+	background: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;;
+}
+main{
+	display: flex;
+    justify-content: center;
+}
+
+
+.card{
+	padding: 15px;
+	margin-bottom: 50px;
+	margin-top: 50px;
+	width: 70%;
+	height: 80%;
+	background: hsl(216, 50%, 16%);
+	border-radius: 10px;
+}
+.card a{
+
+	text-decoration: none;
+}
+.card a:hover{
+	color: hsl(178, 100%, 50%);
+	transition: all 1.3s;
+
+}
+
+.card h1{
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.imagen{
+	display: flex;
+	justify-content: center;
+}
+
+.img{
+	border-radius: 10px;
+}
+.img:hover{
+	filter: blur(5px) brightness(0.6);
+	transition: all 0.3s;
+	border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.description{
+	font-size: 15px;
+	font-weight: 300;
+	color: hsl(215, 51%, 70%);
+}
+
+.quantidade{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 5px;
+	border-bottom: 1px solid hsl(215, 32%, 27%);
+	padding: 10px;
+}
+
+.eth-quantidade{
+	color: hsl(178, 100%, 50%);
+}
+
+.days{
+	color: hsl(215, 51%, 70%);
+}
+
+.user{
+	margin: 5px;
+	display: flex;
+}
+.user-profile-img{
+	border: 1px solid whitesmoke;
+	border-radius: 100%;
+	margin: 5px;
+}
+.creation{
+	font-size: 15px;
+	transform: translateY(12px);
+	color: hsl(215, 51%, 70%);
+	margin-left: 10px;
+}
+.creation b{
+	color: whitesmoke;
+}
+.creation a{
+	text-decoration: none;
+}
+
+.creation a:hover{
+	color: hsl(178, 100%, 50%);
+	transition: all 1.3s;
+}
